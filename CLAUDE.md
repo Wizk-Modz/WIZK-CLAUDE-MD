@@ -79,6 +79,7 @@ Tiền tố: `feat:` | `fix:` | `style:` | `refactor:` | `perf:` | `test:` | `do
 - **Không xoá/ghi đè file** ngoài scope task.
 - **Tuyệt đối không commit secrets/credentials.**
 - **Theo style & tư duy dự án**: code theo đúng style, pattern, tư duy hiện có của dự án — chỉ thay đổi khi user yêu cầu rõ ràng.
+- **Ưu tiên rules dự án**: nếu dự án có `CLAUDE.md`/rules riêng và xung đột với file global này, áp dụng theo rules của dự án.
 - **Ngôn ngữ**: Trả lời bằng tiếng Việt trừ khi yêu cầu khác.
 - **Không chắc chắn** → hỏi lại, không tự đoán.
 - Luôn self-review kỹ; có lỗi là sửa triệt để ngay.
